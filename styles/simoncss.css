@@ -1,0 +1,176 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+
+.container {
+	width: 100%;
+}
+
+.content {
+	max-width: 1200px;
+	margin: 0 auto 0 auto;
+
+}
+
+.min-width {
+	min-width:1200px;
+}
+
+.content-narrow {
+	max-width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+.sidepadding {
+	padding: 0 25px 0 25px;
+}
+
+.flex {
+	display: flex;
+}
+
+.half {
+	width: 50%;
+}
+
+.third {
+	width: 33.33%;
+}
+
+.quarter {
+	width: 25%;
+}
+
+.center {
+	text-align: center;
+}
+
+.center-div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center-flex {
+	justify-content: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.card {
+	width: 80%;
+	height: 350px;
+	margin: 50px auto 50px auto;
+	background-image: url("../images/ianbox.jpg");
+	color: white;
+	font-size: 22px;
+	-webkit-box-shadow: 13px 10px 20px -2px rgba(227,223,227,1);
+	-moz-box-shadow: 13px 10px 20px -2px rgba(227,223,227,1);
+	box-shadow: 13px 10px 20px -2px rgba(227,223,227,1);
+	border-radius: 5px;
+	
+}
+
+.card p {
+	font-size: 16px;
+}
+
+.vertical {
+	padding-top:25%;
+}
+
+.verticalpadding{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.vertical-padding-large {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.greybg{
+	background-color: darkgrey;
+}
+
+.bordertop {
+	border-top: 1px solid lightgrey;
+}
+
+.one-third-width {
+	width: 30%;
+}
+
+.two-third-width {
+	width: 70%;
+}
+
+.padding {
+	padding:20px;
+}
+
+pre {
+	font-size: 13px;
+	font-family: monospace;
+	line-height: 1.4em;
+	color: black;
+	background-color: white;
+}
+
+.white {
+	color: white;
+}
+
+.txtpadding {
+	padding: 0 100px 0 100px;
+}
+
+li {
+
+}
+
+ul{
+	padding: 0;
+}
+
+
+li:hover {
+	background-color: lightgrey;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.full {
+	max-width: 1600px;
+}
+
+.light {
+	font-weight: lighter;
+}
+
+/*Mobile site*/
+@media (max-width: 640px) {
+
+.flex {
+	display: block;
+}
+
+.third, .quarter {
+	width: 100%;
+	display: block;
+}
+
+.txtpadding {
+	padding: 0 50px 0 50px;
+}
+
+}

@@ -1,0 +1,238 @@
+body {
+	background-color: #201A1E;
+}
+
+
+.bg-nav {
+	background-color: #201A1E;
+	color: white;
+
+}
+
+nav {
+margin-left: auto;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav div {
+	display: inline;
+	padding-left: 50px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: 0.4s;
+}
+
+nav a:hover {
+	color: grey;
+}
+
+.v-padding {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#logo {
+
+}
+
+li {
+	display: inline;
+}
+
+
+#social-icons {
+	position: fixed;
+	right: 0;
+	top: 25%;
+	z-index: 15;
+	width: 50px;
+	height: 340px;
+	background-color: rgba(239, 70, 63, 1);
+
+}
+
+#social-icons div{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	padding-top: 10px;
+}
+
+#social-icons div:nth-of-type(1) {
+	padding-top: 35px;
+}
+
+.bg-red {
+	background-color: rgba(239, 70, 63, 1);
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.bg-dark-brown {
+	background-color: #201A1E;
+}
+
+.mid-height {
+	height: 750px;
+}
+
+
+footer {
+	position: relative;
+	z-index: 11;
+	background-color: 	#201A1E;
+	width: 100%;
+	color: white;
+	height: 190px;
+}
+
+input {
+	width:380px;
+	height: 35px;
+	background-color: transparent;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border:1px solid #FFFFFF;
+	padding-left: 15px;
+	margin-bottom: 10px;
+}
+
+input:nth-of-type(2){
+	background-color: rgba(239, 70, 63, 1);
+	color: white;
+	border:none;
+	width: 398px;
+}
+
+.text-white {
+	color: white;
+}
+
+.padding-right {
+	padding-right: 50px;
+}
+
+#album {
+	background-image: url('../images/rap2.jpg');
+	background-position: top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#buynow {
+	position: relative;
+	bottom: 0;
+}
+
+#buynow img {
+	display: inline-block;
+	width: 100px;
+	margin-left: 40px;
+	margin-top: 100px;
+}
+
+#bar {
+	background-color: rgba(239, 70, 63, 1);
+	height: 120px;
+}
+
+#page-name {
+	height: 100%;
+	color: white;
+}
+
+#page-name h1 {
+	position: relative;
+	z-index: 10;
+	margin:0;
+	font-size: 80px;
+	line-height: 225px;
+	overflow: hidden;
+}
+
+#music-content {
+	color: white;
+	position: relative;
+	z-index: 12;
+}
+
+.border-bottom-white {
+	border-bottom: 1px solid white;
+}
+
+table {
+	width:100%;
+}
+
+table td {
+	border-top: 1px solid white;
+	border-collapse: collapse;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.z-content {
+	position: relative;
+	z-index: 12;
+}
+
+.show-button {
+	border:1px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+}
+
+.show-button:hover {
+	background-color: white;
+	color: rgba(239, 70, 63, 1);
+}
+
+#representation h3 {
+	color: rgba(239, 70, 63, 1);
+}
+
+#contact-form input{
+	width:380px;
+	height: 35px;
+	background-color: transparent;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border:1px solid #FFFFFF;
+	padding-left: 15px;
+	margin-bottom: 10px;
+}
+
+#contact-form textarea {
+    resize: none;
+    outline: none;
+    width: 380px;
+	height: 110px;
+	padding-top: 10px;
+	padding-left: 15px;
+	background-color: transparent;
+	border:1px solid #FFFFFF;
+}
+
+#contact-form input:nth-of-type(4) {
+	width: 100px;
+	color: white;
+	background-color: rgba(239, 70, 63, 1);
+	float: right;
+	margin-top: 5px;
+	border:none;
+
+}
+
+
