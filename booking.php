@@ -35,16 +35,17 @@ $page_name = 'CONTACT';
 <div class="container">
 
 	<div class="content-narrow flex verticalpadding">
-		<div class="half" style="padding:0 350px 0 0px; color: white;">
-			<p><strong>Leave your message and said artist we'll get back to you asap</strong></p>
+		<div class="half" style="color: white;">
+			<p style='max-width: 250px;'><strong>Leave your message and said artist we'll get back to you asap</strong></p>
 		</div>
-		<div class="half">
+		<div class="half" style='text-align: right;'>
 			
 			<form id="contact-form">
 				<input type="text" name="name" placeholder="Name">
 				<input type="email" name="email" placeholder="Email">
 				<input type="text" name="subject" placeholder="Subject">
 				<textarea name="message" placeholder="Message"></textarea>
+				<br />
 				<input type="submit" name="submit" value="Send">
 			</form>
 		</div>

@@ -14,9 +14,9 @@ body {
 
 }
 
-.min-width {
+/* .min-width {
 	min-width:1200px;
-}
+} */
 
 .content-narrow {
 	max-width: 1000px;
@@ -158,19 +158,23 @@ li:hover {
 }
 
 /*Mobile site*/
-@media (max-width: 640px) {
+@media (max-width: 800px) {
 
-.flex {
-	display: block;
-}
+	.flex {
+		display: block;
+	}
 
-.third, .quarter {
-	width: 100%;
-	display: block;
-}
+	.third, .quarter {
+		width: 100%;
+		display: block;
+	}
 
-.txtpadding {
-	padding: 0 50px 0 50px;
-}
+	.txtpadding {
+		padding: 0 50px 0 50px;
+	}
+
+	.half, .one-third-width, .two-third-width  {
+			width: 100%;
+		}
 
 }

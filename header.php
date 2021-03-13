@@ -1,11 +1,14 @@
 <?php
-	$bg = '';
-	$name_color = '';
+$bg = '';
+$name_color = '';
 ?>
 
 <!DOCTYPE html>
 <html>
+
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 	<title>Artist</title>
 	<link rel="stylesheet" type="text/css" href="styles/simoncss.css">
 	<link rel="stylesheet" type="text/css" href="styles/artist.css">
