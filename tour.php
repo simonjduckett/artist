@@ -14,7 +14,7 @@ $page_name = 'TOUR';
 
 <div class="container bg-red white z-content vertical-padding-large">
 	<div class="content-narrow">
-		<div class="content-narrow light flex" style="padding:0 0 20px 10px; font-size: 14px;">
+		<div class="content-narrow light" style="padding:0 0 20px 10px; font-size: 14px; display: flex">
 			Upcoming Shows / Local Dates
 
 			<div class="light" style="padding:0 10px 0 0; margin-left: auto;">
